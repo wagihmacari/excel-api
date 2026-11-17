@@ -1,7 +1,13 @@
+
 {
   "name": "excel-api",
   "version": "1.0.0",
+  "description": "A REST API that stores products in an Excel file",
+  "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20 <25"
+  },
   "scripts": {
     "seed": "node seed.js",
     "try": "node try-store.js",
@@ -15,3 +21,4 @@
     "express": "^5.3.0"
   }
 }
+
